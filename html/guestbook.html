@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<link rel="stylesheet" type="text/css" href="../css/mystyle.css"/>
+<title>Don Robina Guest Book</title>
+<meta name="robots" content="follow"/>
+<link rel="stylesheet"  type="text/css" href="../css/myStyle.css"/>
+</head>
+
+<body>
+<header>
+<img src="../images/jump.jpg" alt="Jump" class="center">
+</header>
+
+
+<nav>
+<a href="home.html"><img src="../images/home.png" alt="Home" class="button"></a>
+<a href="interests.html"><img src="../images/interest.png" alt="Interests" class="button"></a>
+<a href="resume.html"><img src="../images/resume.png" alt="Don Robina Resume" class="button"></a>
+<a href="reflections.html"><img src="../images/reflections.png" alt="Reflections" class="button"></a>
+<a href="guestbook.html"><img src="../images/guestbook.png" alt="Guest book" class="button"></a>
+</nav>
+<article>
+<h1 style="text-align:center;">Guest Book</h1>
+<br/>
+<h2 style="color:blue; text-align:center; margin-top:0px;" >Please let me know a little about yourself.</h2>
+
+<br><br>
+<form
+method="post"
+action="http://ss1.ciwcertified.com/cgi-bin/process.pl">
+Enter Your Name: <input type="text" name="Name" size="40"/>
+<br/>
+<br/>
+Enter Your E-mail: <input type="text" name="Email" size="40"/>
+<br/>
+<br/><br/>
+What country do you live in?
+<input type="text" name="country" size="40">
+<br/>
+<br/>
+What is your age group?<br/>
+<input type="radio" name="AddToList" value="Under18"/>Under 18 <br/>
+<input type="radio" name="AddToList" value="18-30"/>18-30<br/>
+<input type="radio" name="AddToList" value="31-45"/>31-45<br/>
+<input type="radio" name="AddToList" value="46-64"/>46-64<br/>
+<input type="radio" name="AddToList" value="65+"/>65 and over
+<br/>
+<br/>
+Should we add you to our mailing list?
+<input type="checkbox" name="mailinglist"/><br/>
+<br/>
+<br/>
+What web technologies are you interested in?? (check all that
+apply):<br/>
+<select name="interests" multiple="multiple" size="6">
+<option>HTML</option>
+<option>CSS</option>
+<option>JavaScript</option>
+<option>AJAX</option>
+<option>SQL</option>
+<option>PHP</option>
+</select>
+<br/>
+<br/>
+
+How did you find my website?
+<br/>
+<select name="website">
+<option>Select one</option>
+<option>I'm a friend</option>
+<option>A friend directed me to your site</option>
+<option>School Web Site</option>
+<option>A search engine directed me to your site</option>
+<option>I came across your site by accident</option>
+<option>Other</option>
+</select>
+<br/>
+<br/>
+Comments:<br/>
+<textarea name="comments" cols="50" rows="6">
+Enter your message here.
+</textarea>
+<br/>
+<br/>
+<input type="submit" value="submit"/>
+<input type="reset"/>
+</form>
+</article>
+
+<footer>
+
+<a href="home.html">Home</a>| 
+<a href="resume.html">Resume</a>|
+<a href="guestbook.html">Guestbook</a>|
+<a href="interests.html">Interest</a>|
+<a href="reflections.html">Reflections</a>
+
+<p>© 2019 Don Robina</p>
+</footer>
+
+
+</body>
+</html>
